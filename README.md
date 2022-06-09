@@ -16,6 +16,22 @@ Add to qb-core/shared/items.lua:
 
 ```
 
+Add to qb-core/shared/jobs.lua
+```
+    ['rooster'] = {
+		label = 'Rooster',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Rooster',
+                payment = 50
+            },
+        },
+	},
+}
+```
+
 Add images to qb-inventory/html/images
 
 # Dependicies:
